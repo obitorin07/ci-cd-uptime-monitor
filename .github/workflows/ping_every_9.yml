@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Curl ping to keep site awake
-        run: echo "Pinging at $(date)" && curl -s --max-time 120 https://www.kirananalyst.com/ || echo "Ping failed"
+        run: echo "Pinging at $(date)" && curl -s --max-time 120 https://www.kirananalyst.com/about || echo "Ping failed"
